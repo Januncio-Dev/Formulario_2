@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+  color: #4e4958;
+}
+
+/* HEADER */
+.header {
+  background-color: #121214;
+  height: 368px;
+  padding-top: 80px;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  max-width: 350px;
+  margin-bottom: 16px;
+}
+
+.header h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #42d3ff;
+  max-width: 300px;
+  line-height: 26px;
+}
+
+/* FORMULÁRIO CONTAINER */
+.container {
+  max-width: 736px;
+  margin: -100px auto 100px auto;
+  padding: 0 20px;
+}
+
+.formulario {
+  background-color: #ffffff;
+  border-radius: 8px 8px 0 0;
+  padding: 64px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* FIELDSETS & TÍTULOS DE SEÇÃO */
+fieldset {
+  border: none;
+  margin-bottom: 48px;
+}
+
+legend {
+  font-family: 'Archivo', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #322153;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6f0;
+  margin-bottom: 32px;
+}
+
+/* CAMPOS DE ENTRADA (LABELS & INPUTS) */
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  color: #4e4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  color: #c1bccc;
+  margin-left: 6px;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  background-color: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+  font-size: 14px;
+  color: #322153;
+  outline: none;
+}
+
+.input-wrapper textarea {
+  height: auto;
+  padding: 16px 24px;
+  resize: vertical;
+}
+
+/* Estilo para simular borda vermelha de erro (campo Whatsapp na imagem) */
+.input-wrapper.erro input {
+  border: 1px solid #ff6b6b;
+}
+
+/* CHECKBOX */
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #04d361;
+  cursor: pointer;
+}
+
+.checkbox-wrapper label {
+  font-size: 14px;
+  color: #4e4958;
+  cursor: pointer;
+}
+
+/* LAYOUT LADO A LADO (DIA E HORA) */
+.colunas-tempo {
+  display: flex;
+  gap: 16px;
+}
+
+.flex-2 { flex: 2; }
+.flex-1 { flex: 1; }
+
+/* BOTÃO SALVAR (RODAPÉ) */
+.footer-button {
+  background-color: #f0f0f5;
+  margin: 0 -64px -64px -64px;
+  padding: 40px 64px;
+  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #e6e6f0;
+}
+
+.footer-button button {
+  width: 100%;
+  height: 56px;
+  background-color: #04d361;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.footer-button button:hover {
+  background-color: #08a851;
+}
